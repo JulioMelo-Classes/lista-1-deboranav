@@ -6,7 +6,21 @@ const int SIZE = 5; // input size.
 
 int main(void)
 {
-    // TODO: Adicione aqui seu código.
+    int contador = 0;
+    int var, i;
+
+    for (i = 0; i < SIZE; i++){
+        cout << "Digite um número inteiro: ";
+        cin >> var;
+
+        if (var < 0){
+            contador += 1;
+        }
+
+    }
+
+    cout << "A sequência possui " << contador << " números negativos.";
+
 
     return 0;
 }
