@@ -10,7 +10,35 @@ using std::endl;
 
 int main( void )
 {
-    // TODO: Adicione seu código aqui. 
+     int m, n, i;
+     int soma = 0;
 
-    return 0;
+     cout << "Insira um número inteiro: ";
+     cin >> m;
+
+     cout << "Insira um número inteiro (-10000 ≤ n ≤ 1000): ";
+     cin >> n;
+
+     if (n > 0){
+
+       for (i = 0; i < n; i++){
+         soma = soma + (m + i); 
+       }
+
+     }
+
+     if (n < 0){
+
+       n = n * -1;
+
+       for (i = 0; i < n; i++){
+
+         soma = soma + (m - i); 
+       }
+
+     }
+    
+     cout << "A soma é: " << soma; 
+
+     return 0;
 }
