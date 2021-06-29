@@ -11,7 +11,9 @@ using std::endl;
 #include <iomanip>
 using std::setprecision;
 
-
+/*
+esse cout inicial não estava na especificação, mas ok...
+*/
 int main(void)
 {
     int x;

@@ -4,10 +4,14 @@ using std::cout;
 
 const int SIZE = 5; // input size.
 
+/*
+mais uma vez, muitos prints não especificados. mas ok.
+*/
 int main(void)
 {
     int contador = 0;
     int var, i;
+
 
     for (i = 0; i < SIZE; i++){
         cout << "Digite um número inteiro: ";

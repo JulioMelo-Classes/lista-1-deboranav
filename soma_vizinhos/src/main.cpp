@@ -8,6 +8,8 @@ using std::cout;
 using std::cin;
 using std::endl;
 
+/*você não usou o método que lê entradas indefinidamente, por isso não tinha como passar
+ no entanto o algoritmo para dois números apenas está ok, por isso vou considerar 40%*/
 int main( void )
 {
      int m, n, i;
